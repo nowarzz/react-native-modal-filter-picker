@@ -199,7 +199,7 @@ export default class ModalFilterPicker extends Component {
 
     this.setState({
       filter: text.toLowerCase(),
-      ds: this.state.ds.cloneWithRows(filtered)
+      ds: filtered
     })
   }
 }
